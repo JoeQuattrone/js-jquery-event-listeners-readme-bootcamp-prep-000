@@ -24,7 +24,7 @@ function pressIt (key) {
       if (key.which == 71) {
         alert ('G was pressed!')
       }
-    });
+    })}
     
     $('form').on('submit', function submitIt () {
       alert ('Your form is going to be submitted now.')
