@@ -19,7 +19,7 @@ $(document).ready(function(){
       }
     });
     
-    $('form').on('submit', function submitIt () {
+    $('input #').on('submit', function submitIt () {
       
     });
     
