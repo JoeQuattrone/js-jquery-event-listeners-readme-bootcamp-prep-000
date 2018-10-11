@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 getIt()
 
-
+frameIt()
     
     $(document).on('keydown', function pressIt (key) {
       
