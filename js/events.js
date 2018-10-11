@@ -19,7 +19,7 @@ $(document).ready(function(){
       }
     });
     
-    $('#submit').on('submit', function submitIt () {
+    $('form').on('submit', function submitIt () {
       alert ('Your form is going to be submitted now.')
     });
     
