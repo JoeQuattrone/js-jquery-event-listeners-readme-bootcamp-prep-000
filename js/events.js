@@ -8,8 +8,9 @@ function getIt () {
 $(document).ready(function() {
 
 getIt()
-   
-   $(window).on('load', function frameIt() {
+
+function frameIt() {   
+   $(window).on('load', 
     $('img').addClass("tasty")
     $('img').css({ "display": "inline-block" })
     $('img').css({ "border-color": "red", "border-style": "solid", "border-weight": "5px"}); 
