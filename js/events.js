@@ -10,11 +10,11 @@ $(document).ready(function() {
 getIt()
 
 function frameIt() {   
-   $(window).on('load', 
+   $(window).on('load', function () {
     $('img').addClass("tasty")
     $('img').css({ "display": "inline-block" })
     $('img').css({ "border-color": "red", "border-style": "solid", "border-weight": "5px"}); 
-    }); 
+    })} 
     
     $(document).on('keydown', function pressIt (key) {
       
