@@ -1,11 +1,13 @@
 //define functions here
 
-$(document).ready(function() {
-
 function getIt () {
   $('p').on('click', function () {
     alert ("Hey!")
   })}
+
+$(document).ready(function() {
+
+getIt()
    
    $(window).on('load', function frameIt() {
     $('img').addClass("tasty")
