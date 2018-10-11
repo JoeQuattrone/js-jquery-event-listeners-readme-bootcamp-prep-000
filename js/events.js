@@ -14,7 +14,9 @@ $(document).ready(function(){
     
     $(document).on('keydown', function pressIt () {
       
-      
+      if (key.which ==) {
+        
+      }
     });
 
 });
