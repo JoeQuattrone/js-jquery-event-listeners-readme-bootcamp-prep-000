@@ -5,7 +5,7 @@ $(document).ready(function() {
 function getIt () {
   $('p').on('click', function() { 
     alert ("Hey!")
-  })};
+  })}
    
    $(window).on('load', function frameIt() {
     $('img').addClass("tasty")
