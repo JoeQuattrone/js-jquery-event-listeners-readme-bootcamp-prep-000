@@ -1,11 +1,11 @@
 //define functions here
 
-function getIt () {
+   function getIt () {
   $('p').on('click', function () {
     alert ("Hey!")
   })}
   
-  function frameIt() {   
+   function frameIt() {   
    $(window).on('load', function () {
     $('img').addClass("tasty")
     $('img').css({ "display": "inline-block" })
