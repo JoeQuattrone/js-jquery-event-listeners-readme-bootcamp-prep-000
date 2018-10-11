@@ -10,7 +10,15 @@ function getIt () {
     $('img').addClass("tasty")
     $('img').css({ "display": "inline-block" })
     $('img').css({ "border-color": "red", "border-style": "solid", "border-weight": "5px"}); 
-    })} 
+    })}
+    
+    function pressIt (key) {    
+    $(document).on('keydown', function () {
+      
+      if (key.which == 71) {
+        alert ('G was pressed!')
+      }
+    })}
 
 $(document).ready(function() {
 
@@ -18,13 +26,9 @@ getIt()
 
 frameIt()
 
-function pressIt (key) {    
-    $(document).on('keydown', function () {
-      
-      if (key.which == 71) {
-        alert ('G was pressed!')
-      }
-    })}
+pressIt()
+
+
     
     $('form').on('submit', function submitIt () {
       alert ('Your form is going to be submitted now.')
