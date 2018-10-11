@@ -18,5 +18,9 @@ $(document).ready(function(){
         alert ('G was pressed!')
       }
     });
-
+    
+    $('form').on('submit', function submitIt () {
+      
+    });
+    
 });
