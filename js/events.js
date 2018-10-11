@@ -12,7 +12,7 @@ $(document).ready(function(){
     $('img').css({ "border-color": "red", "border-style": "solid", "border-weight": "5px"}); 
     }); 
     
-    $(document).on('keydown', function pressIt () {
+    $(document).on('keydown', function pressIt (key) {
       
       if (key.which == 71) {
         alert ('G was pressed!')
