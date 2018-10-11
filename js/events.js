@@ -2,7 +2,8 @@
 
 $(document).ready(function() {
 
-  $('p').on('click', function getIt () {
+function getIt () {
+  $('p').on('click', 
     alert ("Hey!")
   })
    
