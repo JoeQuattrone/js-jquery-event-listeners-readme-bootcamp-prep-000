@@ -1,6 +1,6 @@
 //define functions here
 
-$(document).ready(function(){
+$(document).ready(function(){});
 
   $('p').on('click', function getIt () {
     alert ("Hey!")
@@ -23,4 +23,4 @@ $(document).ready(function(){
       alert ('Your form is going to be submitted now.')
     });
     
-});
+
