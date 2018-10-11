@@ -12,7 +12,7 @@ function getIt () {
     $('img').css({ "border-color": "red", "border-style": "solid", "border-weight": "5px"}); 
     })}
     
-    function pressIt (key) {    
+    function pressIt () {    
     $(document).on('keydown', function (key) {
       
       if (key.which == 71) {
