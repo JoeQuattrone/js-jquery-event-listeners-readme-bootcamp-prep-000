@@ -11,5 +11,10 @@ $(document).ready(function(){
     $('img').css({ "display": "inline-block" })
     $('img').css({ "border-color": "red", "border-style": "solid", "border-weight": "5px"}); 
     }); 
+    
+    $(document).on('keydown', function pressIt () {
+      
+      
+    });
 
 });
